@@ -1,7 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.Bot.Builder;
-using Microsoft.Bot.Builder.Integration.AspNet.Core;
-using notip_server.ChatBot;
 using notip_server.Extensions;
 using notip_server.Hubs;
 using notip_server.Utils;
@@ -37,10 +34,6 @@ builder.Services.AddSignalR();
 builder.Services.AddControllers();
 
 builder.Services.AddSingleton<ChatHub>();
-
-// Đăng ký bot
-builder.Services.AddSingleton<IBotFrameworkHttpAdapter, BotFrameworkHttpAdapter>();
-builder.Services.AddTransient<IBot, ChatBot>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 

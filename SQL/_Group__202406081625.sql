@@ -1,4 +1,4 @@
-INSERT INTO bgdbtwpjpklvcgrlfcgm.`Group` (Code,`Type`,Avatar,Name,Created,CreatedBy,LastActive,TypeChatId) VALUES
+INSERT INTO `Group` (Code,`Type`,Avatar,Name,Created,CreatedBy,LastActive,TypeChatId) VALUES
 	 ('0640c984-6b7f-43f5-a48d-eabd851fa441','multi','images/groupuserimage.PNG','acgffdsfsdf','2024-06-05 17:10:45','08dc8547-47a7-4646-85ee-6a195e54a70e','2024-06-05 23:10:25',0),
 	 ('19d83aa0-83f2-482d-9648-cdf16660702c','multi','images/groupuserimage.PNG','401','2024-06-01 15:32:16','08dc8211-d442-49e9-8ed0-f31c7cc1cc2a','2024-06-05 22:10:35',0),
 	 ('1b20c92d-9289-4709-94bc-0e642c47deeb','single',NULL,NULL,'2024-06-01 00:29:43','08dc80ac-6cd9-4519-89a6-a947e371dae8','2024-06-05 23:28:29',0),
@@ -9,7 +9,7 @@ INSERT INTO bgdbtwpjpklvcgrlfcgm.`Group` (Code,`Type`,Avatar,Name,Created,Create
 	 ('84a26c05-226f-4eb4-a83c-5a7deec67f57','single',NULL,NULL,'2024-06-01 15:40:07','08dc80ac-6cd9-4519-89a6-a947e371dae8','2024-06-05 23:29:06',0),
 	 ('8a531c17-d641-41c9-80e4-a3abe12f0993','single',NULL,NULL,'2024-06-06 16:07:46','08dc8191-aeb4-4b09-83e5-12c0ec93f15c','2024-06-06 16:11:25',0),
 	 ('96ae71e6-bd4a-459e-8e45-923226342786','single',NULL,NULL,'2024-06-05 17:22:23','08dc8549-55c4-4690-893d-1cd07316b4b5','2024-06-05 17:31:54',0);
-INSERT INTO bgdbtwpjpklvcgrlfcgm.`Group` (Code,`Type`,Avatar,Name,Created,CreatedBy,LastActive,TypeChatId) VALUES
+INSERT INTO `Group` (Code,`Type`,Avatar,Name,Created,CreatedBy,LastActive,TypeChatId) VALUES
 	 ('9823ce76-c1d8-4e37-93bb-960984158475','single',NULL,NULL,'2024-06-06 15:51:17','08dc80ac-6cd9-4519-89a6-a947e371dae8','2024-06-06 16:04:09',0),
 	 ('99e5be30-f7da-4a82-9e24-66fa4ce60271','multi','PhotoChat/99e5be30-f7da-4a82-9e24-66fa4ce60271/ironman_800x450.jpg','BNL123','2024-06-01 11:13:57','08dc80ac-6cd9-4519-89a6-a947e371dae8','2024-06-05 22:11:49',0),
 	 ('9fef0492-6938-42f4-8e58-777f305a6c63','single',NULL,NULL,'2024-06-01 11:09:08','08dc80ac-6cd9-4519-89a6-a947e371dae8','2024-06-05 23:29:30',0),
